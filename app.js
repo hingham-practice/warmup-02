@@ -39,11 +39,11 @@ app.use( (err, req, res, next) => {
 });
 
 
-module.exports = {
-    server: app,
-    start: (port) =>{
-        app.listen(port, () => console.log('Server up on port', port));
-    }
-}
-// app.listen(8080, () =>{ console.log('server is up on 8080')});
+// module.exports = {
+//     server: app,
+//     start: (port) =>{
+//         app.listen(port, () => console.log('Server up on port', port));
+//     }
+// }
+app.listen(8080, () =>{ console.log('server is up on 8080')});
 

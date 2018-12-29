@@ -1,7 +1,7 @@
-'use strict';
+// 'use strict';
 
-const server = require('./app.js');
+// const server = require('./app.js');
 
-const port = process.env.PORT || 8080;
+// const port = process.env.PORT || 8080;
 
-server.start(port);
+// server.start(port);
