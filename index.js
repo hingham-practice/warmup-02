@@ -1,7 +1,7 @@
-// 'use strict';
+'use strict';
 
-// const server = require('./app.js');
 
-// const port = process.env.PORT || 8080;
+require('dotenv').config();
+const port =  5000;
 
-// server.start(port);
+require('./week6/app.js').start(port);

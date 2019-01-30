@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/hingham/warmup-02#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "superagent": "^4.1.0"
   }
 }
